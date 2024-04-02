@@ -1,0 +1,39 @@
+.container-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.ads {
+    width: 15%;
+    order: 3;
+    background-color: #c0dbe2;
+}
+
+.menu {
+    width: 15%;
+    order: 1;
+    background-color: #cdf1c3;
+}
+
+.content {
+    width: 68%;
+    order: 2;
+    background-color: #ccb9da;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #d4c7be;
+}
+
+main {
+    background-color: #faaf92;
+}
+
+footer {
+    background-color: #d8cc5e;
+}
