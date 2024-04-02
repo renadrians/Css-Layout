@@ -1,0 +1,80 @@
+.container {
+    margin: 0 auto;
+    width: 960px;
+    background-color: greenyellow;
+}
+
+.container:before,
+.container:after,
+.row:before,
+.row:after {
+    display: table;
+    content: "";
+}
+
+.container:after,
+.row:after {
+    clear: both;
+}
+
+.row {
+    margin: 10px 0;
+
+}
+
+.column {
+    float: left;
+    display: block;
+    min-height: 30px;
+    margin: 0 5px;
+    padding: 0 5px;
+    background-color: yellowgreen;
+}
+
+.col-1 {
+    width: 60px;
+}
+
+.col-2 {
+    width: 140px;
+}
+
+.col-3 {
+    width: 220px;
+}
+
+.col-4 {
+    width: 300px;
+}
+
+.col-5 {
+    width: 380px;
+}
+
+.col-6 {
+    width: 460px;
+}
+
+.col-7 {
+    width: 540px;
+}
+
+.col-8 {
+    width: 620px;
+}
+
+.col-9 {
+    width: 700px;
+}
+
+.col-10 {
+    width: 780px;
+}
+
+.col-11 {
+    width: 860px;
+}
+
+.col-12 {
+    width: 940px;
+}
